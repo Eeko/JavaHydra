@@ -1,2 +1,13 @@
-A mirror of the source-code I worked with during the Summer 2011 for Helsinki Institute of Physics @ CERN, Switzerland.
+A mirror of the source-code I worked with during the Summer 2011 for Helsinki
+Institute of Physics @ CERN, Switzerland.
 
+What the software is, is basically a Java WebStart compatible Swing-client for
+Hydra Encrypted File Storage Solution
+(https://twiki.cern.ch/twiki/bin/view/EGEE/DMEDS)
+
+A video of the program in action: 
+http://www.youtube.com/watch?v=otGU19H9JlI
+
+-- 
+Eetu "Eeko" Korhonen, 2011
+http://about.me/eeko/
