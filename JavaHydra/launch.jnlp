@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://eeko.iki.fi/~eeko/" href="launch.jnlp"> 
+	<information> 
+		<title>JavaHydra WebStart, sample .jnlp file.</title> 
+		<vendor>HIP-TEK</vendor> 
+		<homepage href="http://eeko.iki.fi" /> 
+		<description>A Swing-application demonstarting the use of Hydra-webservices via Java-libraries. To use the software, specify a services.xml file within the "Hydra Settings" tab. An example use of the xml-schema is in resources/hydra-services.xml. Also, if the default certificate trust-store does not contain certificates for the servers you are using and a compatible certificate of your own for 2-way ssl-authentication, you can specify files containing them in the Settings pane. The software accepts .p12 (i.e. what Firefox certificate export offers by default) and .jks and .ts file formats (containing a Java KeyStore object generated with keytool).</description> 
+		<description kind="short">A Swing-application demonstarting the use of Hydra-webservices via Java-libraries.</description> 
+	</information> 
+	<resources> 
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.6+"/> 
+		<jar href="JavaHydra.jar"/>  
+	</resources> 
+	<application-desc main-class="JavaHydra.ui.Gui"/> 
+</jnlp> 

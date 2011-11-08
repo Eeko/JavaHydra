@@ -1,0 +1,87 @@
+<!DOCTYPE services
+
+        PUBLIC "-//gLite//DTD glite-service-discovery-file 1.0//EN"
+
+                
+"http://egee-jra1-data.web.cern.ch/egee-jra1-data/dtd/service-discovery/1.0/services.dtd">
+
+<services>
+
+    <service name="hydra-1">
+
+        <parameters>
+
+            
+<endpoint>https://vtb-generic-70.cern.ch:8443/1/glite-data-hydra-service/services/Hydra</endpoint>
+
+            <type>org.glite.Metadata</type>
+
+            <version>1.0.0</version>
+
+            <volist><vo>example.vo</vo></volist>
+
+        </parameters>
+
+        <associatedservices>
+
+            <name>hydra-2</name>
+
+            <name>hydra-3</name>
+
+        </associatedservices>
+
+    </service>
+
+    <service name="hydra-2">
+
+        <parameters>
+
+            
+<endpoint>https://vtb-generic-70.cern.ch:8443/2/glite-data-hydra-service/services/Hydra</endpoint>
+
+            <type>org.glite.Metadata</type>
+
+            <version>1.0.0</version>
+
+            <volist><vo>example.vo</vo></volist>
+
+        </parameters>
+        <associatedservices>
+
+            <name>hydra-1</name>
+
+            <name>hydra-3</name>
+
+        </associatedservices>
+
+    </service>
+
+    <service name="hydra-3">
+
+        <parameters>
+
+            
+<endpoint>https://vtb-generic-70.cern.ch:8443/3/glite-data-hydra-service/services/Hydra</endpoint>
+
+            <type>org.glite.Metadata</type>
+
+            <version>1.0.0</version>
+
+            <volist><vo>example.vo</vo></volist>
+
+        </parameters>
+
+        <associatedservices>
+
+            <name>hydra-1</name>
+
+            <name>hydra-2</name>
+
+        </associatedservices>
+
+    </service>
+
+</services>
+
+
+
